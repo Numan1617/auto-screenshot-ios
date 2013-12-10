@@ -17,8 +17,8 @@ Integration
 
 Import the library header
 
-```objective-c
-	#import <OneSkyScreenshotHelper/OneSkyScreenshotHelper.h>
+``` objective-c
+#import <OneSkyScreenshotHelper/OneSkyScreenshotHelper.h>
 ```
 
 Add the following code in under ```-application:didFinishLaunchingWithOptions:``` in your app delegate:
