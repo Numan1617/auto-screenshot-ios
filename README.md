@@ -56,4 +56,4 @@ The default position of the screenshot button is bottom right of the main window
 
 Support
 -------
-http://onesky.com/
+http://support.oneskyapp.com/
