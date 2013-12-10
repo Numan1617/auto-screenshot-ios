@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0609C41856CABC0019EDFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB0609C21856CABC0019EDFE /* Localizable.strings */; };
 		FB99139A18275D4C002DC4A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB99139918275D4C002DC4A5 /* Foundation.framework */; };
 		FB99139C18275D4C002DC4A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB99139B18275D4C002DC4A5 /* CoreGraphics.framework */; };
 		FB99139E18275D4C002DC4A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB99139D18275D4C002DC4A5 /* UIKit.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0609C31856CABC0019EDFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FB99139618275D4C002DC4A5 /* OneSkyScreenshotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneSkyScreenshotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB99139918275D4C002DC4A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FB99139B18275D4C002DC4A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -105,6 +107,7 @@
 				FB9913EA182763AB002DC4A5 /* main.m */,
 				FB9913EB182763AB002DC4A5 /* OneSkyScreenshotDemo-Info.plist */,
 				FB9913EC182763AB002DC4A5 /* OneSkyScreenshotDemo-Prefix.pch */,
+				FB0609C21856CABC0019EDFE /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB9913D11827626A002DC4A5 /* Images.xcassets in Resources */,
+				FB0609C41856CABC0019EDFE /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +183,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB0609C21856CABC0019EDFE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0609C31856CABC0019EDFE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FB9913C018275D4D002DC4A5 /* Debug */ = {
@@ -267,6 +282,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OneSkyScreenshotDemo/OneSkyScreenshotDemo-Prefix.pch";
 				INFOPLIST_FILE = "OneSkyScreenshotDemo/OneSkyScreenshotDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -284,6 +301,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OneSkyScreenshotDemo/OneSkyScreenshotDemo-Prefix.pch";
 				INFOPLIST_FILE = "OneSkyScreenshotDemo/OneSkyScreenshotDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
