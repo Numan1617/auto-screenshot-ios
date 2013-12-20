@@ -17,18 +17,18 @@ Integration
 
 Import the library header
 
-```objective-c
-	#import <OneSkyScreenshotHelper/OneSkyScreenshotHelper.h>
+``` objective-c
+#import <OneSkyScreenshotHelper/OneSkyScreenshotHelper.h>
 ```
 
 Add the following code in under ```-application:didFinishLaunchingWithOptions:``` in your app delegate:
 
-```objective-c
-    [[OneSkyScreenshotHelper sharedHelper] setProjectId:ONESKY_PROJECT_ID];
-    [[OneSkyScreenshotHelper sharedHelper] setApiKey:ONESKY_API_KEY];
-    [[OneSkyScreenshotHelper sharedHelper] setApiSecret:ONESKY_API_SECRET];
+``` objective-c
+[[OneSkyScreenshotHelper sharedHelper] setProjectId:ONESKY_PROJECT_ID];
+[[OneSkyScreenshotHelper sharedHelper] setApiKey:ONESKY_API_KEY];
+[[OneSkyScreenshotHelper sharedHelper] setApiSecret:ONESKY_API_SECRET];
     
-    [[OneSkyScreenshotHelper sharedHelper] startSession];
+[[OneSkyScreenshotHelper sharedHelper] startSession];
 ```
 
 ```ONESKY_API_KEY```, ```ONESKY_API_SECRET``` can be found in **Site Settings** under **API Keys & Usage** on **OneSky Web Admin**. 
@@ -40,20 +40,20 @@ Advance Settings
 ----------------
 
 Turn off capture status ui.
-```objective-c
-	[[OneSkyScreenshotHelper sharedHelper] setShowsCatpureStatus:NO];
+``` objective-c
+[[OneSkyScreenshotHelper sharedHelper] setShowsCatpureStatus:NO];
 ```
 
 If you want to capture screenshots manually, add the following line. A capture button will be added to the window.
-```objective-c
-	[[OneSkyScreenshotHelper sharedHelper] setAutoCaptures:NO];
+``` objective-c
+[[OneSkyScreenshotHelper sharedHelper] setAutoCaptures:NO];
 ```
 
 The default position of the screenshot button is bottom right of the main window, you can adjust using ```UIViewContentMode```.
-```objective-c
-	@property (nonatomic) UIViewContentMode captureButtonPosition;
+``` objective-c
+@property (nonatomic) UIViewContentMode captureButtonPosition;
 ```
 
 Support
 -------
-http://onesky.com/
+http://support.oneskyapp.com/
