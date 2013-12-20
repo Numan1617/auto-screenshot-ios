@@ -6,13 +6,16 @@
   Copyright (c) 2013 OneSky Inc. All rights reserved.
 */
 
-"Localizable string" = "Localizable string";
+"Localizable string 1" = "Same value different key";
+"Localizable string 2" = "Same value different key";
 "Localizable format: %@, %d" = "Localizable format: %@, %d";
 "UITextField" = "UITextField";
 "UIButton" = "UIButton";
 "UIButton" = "UIButton";
 "UITextView" = "UITextView";
-"UITableViewCell.textLabel" = "UITableViewCell.textLabel";
+"global-doodles-with-count##{1}" = "%d Doodles";
+"global-doodles-with-count##{2}" = "%d Doodles";
+"global-doodles-with-count##{3}" = "%d Doodles";
 "UITableViewCell.detailTextLabel" = "UITableViewCell.detailTextLabel";
 "UIBarButtonItem.title" = "UIBarButtonItem.title";
 "UISearchBar.placeholder" = "UISearchBar.placeholder";

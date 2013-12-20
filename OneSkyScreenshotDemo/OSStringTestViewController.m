@@ -38,7 +38,7 @@
     if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
         self.edgesForExtendedLayout = UIRectEdgeNone;
     
-    NSArray* strings = @[NSLocalizedString(@"Localizable string", nil), localizedFormat, @"Not localizable"];
+    NSArray* strings = @[NSLocalizedString(@"Localizable string 1", nil), NSLocalizedString(@"Localizable string 2", nil), localizedFormat];
     
     CGFloat y = 0.0f;
     
@@ -160,7 +160,8 @@
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell* cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
-    cell.textLabel.text = NSLocalizedString(@"UITableViewCell.textLabel", nil);
+    NSString* key = [NSString stringWithFormat:@"global-doodles-with-count##{%d}", indexPath.row + 1];
+    cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(key, nil), indexPath.row + 1];
     cell.detailTextLabel.text = NSLocalizedString(@"UITableViewCell.detailTextLabel", nil);
     
     return cell;

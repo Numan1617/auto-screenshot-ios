@@ -12,10 +12,10 @@
 		FB99139C18275D4C002DC4A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB99139B18275D4C002DC4A5 /* CoreGraphics.framework */; };
 		FB99139E18275D4C002DC4A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB99139D18275D4C002DC4A5 /* UIKit.framework */; };
 		FB9913AA18275D4D002DC4A5 /* OSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9913A918275D4D002DC4A5 /* OSAppDelegate.m */; };
-		FB9913CF18275F66002DC4A5 /* OneSkyScreenshotHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9913CE18275F66002DC4A5 /* OneSkyScreenshotHelper.framework */; };
 		FB9913D11827626A002DC4A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9913D01827626A002DC4A5 /* Images.xcassets */; };
 		FB9913D418276272002DC4A5 /* OSStringTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9913D318276272002DC4A5 /* OSStringTestViewController.m */; };
 		FB9913EE182763AB002DC4A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9913EA182763AB002DC4A5 /* main.m */; };
+		FBA2F6681863FD3C006075B2 /* OneSkyScreenshotHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA2F6671863FD3C006075B2 /* OneSkyScreenshotHelper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		FB9913A818275D4D002DC4A5 /* OSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSAppDelegate.h; sourceTree = "<group>"; };
 		FB9913A918275D4D002DC4A5 /* OSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSAppDelegate.m; sourceTree = "<group>"; };
 		FB9913B218275D4D002DC4A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FB9913CE18275F66002DC4A5 /* OneSkyScreenshotHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSkyScreenshotHelper.framework; sourceTree = "<group>"; };
 		FB9913D01827626A002DC4A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB9913D218276272002DC4A5 /* OSStringTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSStringTestViewController.h; sourceTree = "<group>"; };
 		FB9913D318276272002DC4A5 /* OSStringTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSStringTestViewController.m; sourceTree = "<group>"; };
 		FB9913EA182763AB002DC4A5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB9913EB182763AB002DC4A5 /* OneSkyScreenshotDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OneSkyScreenshotDemo-Info.plist"; sourceTree = "<group>"; };
 		FB9913EC182763AB002DC4A5 /* OneSkyScreenshotDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OneSkyScreenshotDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FBA2F6671863FD3C006075B2 /* OneSkyScreenshotHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSkyScreenshotHelper.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +43,8 @@
 			files = (
 				FB99139C18275D4C002DC4A5 /* CoreGraphics.framework in Frameworks */,
 				FB99139E18275D4C002DC4A5 /* UIKit.framework in Frameworks */,
-				FB9913CF18275F66002DC4A5 /* OneSkyScreenshotHelper.framework in Frameworks */,
 				FB99139A18275D4C002DC4A5 /* Foundation.framework in Frameworks */,
+				FBA2F6681863FD3C006075B2 /* OneSkyScreenshotHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 		FB9913CD18275F66002DC4A5 /* OneSkyScreenshotHelper */ = {
 			isa = PBXGroup;
 			children = (
-				FB9913CE18275F66002DC4A5 /* OneSkyScreenshotHelper.framework */,
+				FBA2F6671863FD3C006075B2 /* OneSkyScreenshotHelper.framework */,
 			);
 			path = OneSkyScreenshotHelper;
 			sourceTree = SOURCE_ROOT;
