@@ -1,0 +1,42 @@
+
+/* Class = "IBUISearchBar"; placeholder = "Test Placeholder"; ObjectID = "3dt-za-P9d"; */
+"3dt-za-P9d.placeholder" = "Test Placeholder";
+
+/* Class = "IBUISearchBar"; prompt = "Test Placeholder Prompt"; ObjectID = "3dt-za-P9d"; */
+"3dt-za-P9d.prompt" = "Test Placeholder Prompt";
+
+/* Class = "IBUISearchBar"; text = "Test Search Bar"; ObjectID = "3dt-za-P9d"; */
+"3dt-za-P9d.text" = "Test Search Bar";
+
+/* Class = "IBUISegmentedControl"; 6Qt-Tf-6Bb.segmentTitles[0] = "First"; ObjectID = "6Qt-Tf-6Bb"; */
+"6Qt-Tf-6Bb.segmentTitles[0]" = "First";
+
+/* Class = "IBUISegmentedControl"; 6Qt-Tf-6Bb.segmentTitles[1] = "Second"; ObjectID = "6Qt-Tf-6Bb"; */
+"6Qt-Tf-6Bb.segmentTitles[1]" = "Second";
+
+/* Class = "IBUITextField"; placeholder = "Placholder"; ObjectID = "Hp5-2x-r9j"; */
+"Hp5-2x-r9j.placeholder" = "Placholder";
+
+/* Class = "IBUITextField"; text = "IB Test Text Field"; ObjectID = "Hp5-2x-r9j"; */
+"Hp5-2x-r9j.text" = "IB Test Text Field";
+
+/* Class = "IBUILabel"; text = "IB Test Label"; ObjectID = "S3I-uj-Qjj"; */
+"S3I-uj-Qjj.text" = "IB Test Label";
+
+/* Class = "IBUITextView"; text = "Test Text View"; ObjectID = "eN2-Ib-pwE"; */
+"eN2-Ib-pwE.text" = "Test Text View";
+
+/* Class = "IBUIViewController"; title = "IB"; ObjectID = "hWU-6W-XaN"; */
+"hWU-6W-XaN.title" = "IB";
+
+/* Class = "IBUIViewController"; title = "Source"; ObjectID = "hbL-PE-HX6"; */
+"hbL-PE-HX6.title" = "Source";
+
+/* Class = "IBUITabBarItem"; title = "Source"; ObjectID = "nht-Rr-wq1"; */
+"nht-Rr-wq1.title" = "Source";
+
+/* Class = "IBUITabBarItem"; title = "Item 2"; ObjectID = "rX8-yt-RlZ"; */
+"rX8-yt-RlZ.title" = "Item 2";
+
+/* Class = "IBUIButton"; normalTitle = "IB Test Button"; ObjectID = "wV5-f3-Ajm"; */
+"wV5-f3-Ajm.normalTitle" = "IB Test Button";

@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  OneSkyClientSDK
+
+  Created by Bret Cheng on 3/10/13.
+  Copyright (c) 2013 OneSky Inc. All rights reserved.
+*/
+
+"Localizable string 1" = "Same value different key";
+"Localizable string 2" = "Same value different key";
+"Localizable format: %@, %d" = "Localizable format: %@, %d";
+"UITextField" = "UITextField";
+"UIButton" = "UIButton";
+"UIButton" = "UIButton";
+"UITextView" = "UITextView";
+"global-doodles-with-count##{1}" = "%d Doodles";
+"global-doodles-with-count##{2}" = "%d Doodles";
+"global-doodles-with-count##{3}" = "%d Doodles";
+"UITableViewCell.detailTextLabel" = "UITableViewCell.detailTextLabel";
+"UIBarButtonItem.title" = "UIBarButtonItem.title";
+"UISearchBar.placeholder" = "UISearchBar.placeholder";
+"Toolbar 1" = "Toolbar 1";
+"Toolbar 2" = "Toolbar 2";
+"Toolbar 4" = "Toolbar 4";
+"View added after viewDidAppear" = "View added after viewDidAppear";
+"UITabBarItem" = "UITabBarItem";
+"UISegmentControl 1" = "UISegmentControl 1";
+"UISegmentControl 2" = "UISegmentControl 2";
+"UIPickerView %d" = "UIPickerView %d";
+"UINavigationBar Title" = "UINavigationBar Title";

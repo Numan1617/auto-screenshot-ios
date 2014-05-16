@@ -18,27 +18,14 @@
 @implementation OSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
+{    
     [[OneSkyScreenshotHelper sharedHelper] setProjectId:ONESKY_PROJECT_ID];
     [[OneSkyScreenshotHelper sharedHelper] setApiKey:ONESKY_API_KEY];
     [[OneSkyScreenshotHelper sharedHelper] setApiSecret:ONESKY_API_SECRET];
-    
+
     [[OneSkyScreenshotHelper sharedHelper] startSession];
     [[OneSkyScreenshotHelper sharedHelper] setAutoCaptures:NO];
     [[OneSkyScreenshotHelper sharedHelper] setShowsCaptureStatus:YES];
-    
-    OSStringTestViewController* controller = [[OSStringTestViewController alloc] init];
-    UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:controller];
-    
-    UITabBarController* tabController = [[UITabBarController alloc] init];
-    tabController.viewControllers = @[nav];
-    
-    self.window.rootViewController = tabController;
     
     return YES;
 }

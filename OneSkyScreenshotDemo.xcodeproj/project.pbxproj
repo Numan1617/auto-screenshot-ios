@@ -16,6 +16,8 @@
 		FB9913D418276272002DC4A5 /* OSStringTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9913D318276272002DC4A5 /* OSStringTestViewController.m */; };
 		FB9913EE182763AB002DC4A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9913EA182763AB002DC4A5 /* main.m */; };
 		FBA2F6681863FD3C006075B2 /* OneSkyScreenshotHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA2F6671863FD3C006075B2 /* OneSkyScreenshotHelper.framework */; };
+		FBD6C0C61925BF88006B0CDA /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD6C0C21925BF88006B0CDA /* Storyboard_iPad.storyboard */; };
+		FBD6C0C71925BF88006B0CDA /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD6C0C41925BF88006B0CDA /* Storyboard_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,13 @@
 		FB9913EB182763AB002DC4A5 /* OneSkyScreenshotDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OneSkyScreenshotDemo-Info.plist"; sourceTree = "<group>"; };
 		FB9913EC182763AB002DC4A5 /* OneSkyScreenshotDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OneSkyScreenshotDemo-Prefix.pch"; sourceTree = "<group>"; };
 		FBA2F6671863FD3C006075B2 /* OneSkyScreenshotHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSkyScreenshotHelper.framework; sourceTree = "<group>"; };
+		FBD6C0C31925BF88006B0CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard_iPad.storyboard; sourceTree = "<group>"; };
+		FBD6C0C51925BF88006B0CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FBD6C0C81925BFB1006B0CDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Storyboard_iPad.strings; sourceTree = "<group>"; };
+		FBD6C0C91925BFB6006B0CDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Storyboard_iPhone.strings; sourceTree = "<group>"; };
+		FBD6C0CA1925BFD3006B0CDA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Storyboard_iPad.strings"; sourceTree = "<group>"; };
+		FBD6C0CB1925BFD3006B0CDA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Storyboard_iPhone.strings"; sourceTree = "<group>"; };
+		FBD6C0CC1925BFE7006B0CDA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +95,8 @@
 				FB9913A918275D4D002DC4A5 /* OSAppDelegate.m */,
 				FB9913D218276272002DC4A5 /* OSStringTestViewController.h */,
 				FB9913D318276272002DC4A5 /* OSStringTestViewController.m */,
-				FB9913D01827626A002DC4A5 /* Images.xcassets */,
-				FB9913CD18275F66002DC4A5 /* OneSkyScreenshotHelper */,
 				FB9913F1182763AE002DC4A5 /* Supporting Files */,
+				FB9913CD18275F66002DC4A5 /* OneSkyScreenshotHelper */,
 			);
 			path = OneSkyScreenshotDemo;
 			sourceTree = "<group>";
@@ -104,10 +112,13 @@
 		FB9913F1182763AE002DC4A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FBD6C0C21925BF88006B0CDA /* Storyboard_iPad.storyboard */,
+				FBD6C0C41925BF88006B0CDA /* Storyboard_iPhone.storyboard */,
 				FB9913EA182763AB002DC4A5 /* main.m */,
 				FB9913EB182763AB002DC4A5 /* OneSkyScreenshotDemo-Info.plist */,
 				FB9913EC182763AB002DC4A5 /* OneSkyScreenshotDemo-Prefix.pch */,
 				FB0609C21856CABC0019EDFE /* Localizable.strings */,
+				FB9913D01827626A002DC4A5 /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,7 +150,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = OS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "OneSky Inc.";
 			};
 			buildConfigurationList = FB99139118275D4C002DC4A5 /* Build configuration list for PBXProject "OneSkyScreenshotDemo" */;
@@ -148,6 +159,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
+				"zh-Hant",
 			);
 			mainGroup = FB99138D18275D4C002DC4A5;
 			productRefGroup = FB99139718275D4C002DC4A5 /* Products */;
@@ -166,6 +179,8 @@
 			files = (
 				FB9913D11827626A002DC4A5 /* Images.xcassets in Resources */,
 				FB0609C41856CABC0019EDFE /* Localizable.strings in Resources */,
+				FBD6C0C71925BF88006B0CDA /* Storyboard_iPhone.storyboard in Resources */,
+				FBD6C0C61925BF88006B0CDA /* Storyboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,8 +204,29 @@
 			isa = PBXVariantGroup;
 			children = (
 				FB0609C31856CABC0019EDFE /* en */,
+				FBD6C0CC1925BFE7006B0CDA /* zh-Hant */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		FBD6C0C21925BF88006B0CDA /* Storyboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD6C0C31925BF88006B0CDA /* Base */,
+				FBD6C0C81925BFB1006B0CDA /* en */,
+				FBD6C0CA1925BFD3006B0CDA /* zh-Hant */,
+			);
+			name = Storyboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FBD6C0C41925BF88006B0CDA /* Storyboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD6C0C51925BF88006B0CDA /* Base */,
+				FBD6C0C91925BFB6006B0CDA /* en */,
+				FBD6C0CB1925BFD3006B0CDA /* zh-Hant */,
+			);
+			name = Storyboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -200,7 +236,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -240,7 +275,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
