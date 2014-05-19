@@ -47,25 +47,16 @@
  */
 @property (nonatomic, strong) NSString* apiSecret;
 
-/** The screenshots that are captured by OneSkyScreenshotHelper
- - key: OSScreenshot id
- - value: OSScreenshot object
- */
-@property (nonatomic, strong, readonly) NSDictionary* screenshots;
-
 /** Shows capture status ui
  */
 @property (nonatomic) BOOL showsCaptureStatus;
 
 /** Flag that specifies whether the helper should automatically
- capture screenshot on viewDidAppear, default to YES,  if set to NO,
- a capture button will be added to the window for manual captures
- */
+ capture screenshot on viewDidAppear, default to NO */
 @property (nonatomic) BOOL autoCaptures;
 
-/** Control the capture button position in the window, defaults to 
- UIViewContentModeBottomRight, scale and redraw modes are not supported.
+/** Flag that specifies whether to show the capture button on screen
  */
-@property (nonatomic) UIViewContentMode captureButtonPosition;
+@property (nonatomic) BOOL showsCaptureButton;
 
 @end
