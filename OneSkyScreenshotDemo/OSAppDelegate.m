@@ -19,9 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {    
-    [[OneSkyScreenshotHelper sharedHelper] setProjectId:@""];
-    [[OneSkyScreenshotHelper sharedHelper] setApiKey:@""];
-    [[OneSkyScreenshotHelper sharedHelper] setApiSecret:@""];
+    [[OneSkyScreenshotHelper sharedHelper] setProjectId:ONESKY_PROJECT_ID];
+    [[OneSkyScreenshotHelper sharedHelper] setApiKey:ONESKY_API_KEY];
+    [[OneSkyScreenshotHelper sharedHelper] setApiSecret:ONESKY_API_SECRET];
 
     [[OneSkyScreenshotHelper sharedHelper] startSession];
     [[OneSkyScreenshotHelper sharedHelper] setShowsCaptureStatus:YES];
