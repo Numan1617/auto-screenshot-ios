@@ -51,12 +51,4 @@
  */
 @property (nonatomic) BOOL showsCaptureStatus;
 
-/** Flag that specifies whether the helper should automatically
- capture screenshot on viewDidAppear, default to NO */
-@property (nonatomic) BOOL autoCaptures;
-
-/** Flag that specifies whether to show the capture button on screen
- */
-@property (nonatomic) BOOL showsCaptureButton;
-
 @end

@@ -44,11 +44,6 @@ Turn off capture status ui.
 [[OneSkyScreenshotHelper sharedHelper] setShowsCatpureStatus:NO];
 ```
 
-If you want the helper to capture screenshots automatically, add the following line. It will capture the screen of each view controller on view appear.
-``` objective-c
-[[OneSkyScreenshotHelper sharedHelper] setAutoCaptures:YES];
-```
-
 Support
 -------
 http://support.oneskyapp.com/

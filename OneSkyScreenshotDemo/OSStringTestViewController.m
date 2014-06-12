@@ -117,6 +117,7 @@
     _picker.delegate = self;
     _picker.dataSource = self;
     [_picker sizeToFit];
+    _picker.userInteractionEnabled = NO;
     
     [self.view addSubview:_picker];
 }
@@ -160,7 +161,7 @@
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell* cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:nil];
-    NSString* key = [NSString stringWithFormat:@"global-doodles-with-count##{%d}", indexPath.row + 1];
+    NSString* key = [NSString stringWithFormat:@"global-doodles-with-count##{%ld}", indexPath.row + 1];
     cell.textLabel.text = [NSString stringWithFormat:NSLocalizedString(key, nil), indexPath.row + 1];
     cell.detailTextLabel.text = NSLocalizedString(@"UITableViewCell.detailTextLabel", nil);
     
