@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0443C3601A121FDB007BFC70 /* OneSkyScreenshotHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0443C35F1A121FDB007BFC70 /* OneSkyScreenshotHelper.framework */; };
 		FB0609C41856CABC0019EDFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB0609C21856CABC0019EDFE /* Localizable.strings */; };
 		FB99139A18275D4C002DC4A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB99139918275D4C002DC4A5 /* Foundation.framework */; };
 		FB99139C18275D4C002DC4A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB99139B18275D4C002DC4A5 /* CoreGraphics.framework */; };
@@ -15,12 +16,12 @@
 		FB9913D11827626A002DC4A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9913D01827626A002DC4A5 /* Images.xcassets */; };
 		FB9913D418276272002DC4A5 /* OSStringTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9913D318276272002DC4A5 /* OSStringTestViewController.m */; };
 		FB9913EE182763AB002DC4A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9913EA182763AB002DC4A5 /* main.m */; };
-		FBA2F6681863FD3C006075B2 /* OneSkyScreenshotHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA2F6671863FD3C006075B2 /* OneSkyScreenshotHelper.framework */; };
 		FBD6C0C61925BF88006B0CDA /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD6C0C21925BF88006B0CDA /* Storyboard_iPad.storyboard */; };
 		FBD6C0C71925BF88006B0CDA /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD6C0C41925BF88006B0CDA /* Storyboard_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0443C35F1A121FDB007BFC70 /* OneSkyScreenshotHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSkyScreenshotHelper.framework; sourceTree = "<group>"; };
 		FB0609C31856CABC0019EDFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FB99139618275D4C002DC4A5 /* OneSkyScreenshotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneSkyScreenshotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB99139918275D4C002DC4A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,7 +36,6 @@
 		FB9913EA182763AB002DC4A5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB9913EB182763AB002DC4A5 /* OneSkyScreenshotDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OneSkyScreenshotDemo-Info.plist"; sourceTree = "<group>"; };
 		FB9913EC182763AB002DC4A5 /* OneSkyScreenshotDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OneSkyScreenshotDemo-Prefix.pch"; sourceTree = "<group>"; };
-		FBA2F6671863FD3C006075B2 /* OneSkyScreenshotHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSkyScreenshotHelper.framework; sourceTree = "<group>"; };
 		FBD6C0C31925BF88006B0CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard_iPad.storyboard; sourceTree = "<group>"; };
 		FBD6C0C51925BF88006B0CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
 		FBD6C0C81925BFB1006B0CDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Storyboard_iPad.strings; sourceTree = "<group>"; };
@@ -52,8 +52,8 @@
 			files = (
 				FB99139C18275D4C002DC4A5 /* CoreGraphics.framework in Frameworks */,
 				FB99139E18275D4C002DC4A5 /* UIKit.framework in Frameworks */,
+				0443C3601A121FDB007BFC70 /* OneSkyScreenshotHelper.framework in Frameworks */,
 				FB99139A18275D4C002DC4A5 /* Foundation.framework in Frameworks */,
-				FBA2F6681863FD3C006075B2 /* OneSkyScreenshotHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 		FB9913CD18275F66002DC4A5 /* OneSkyScreenshotHelper */ = {
 			isa = PBXGroup;
 			children = (
-				FBA2F6671863FD3C006075B2 /* OneSkyScreenshotHelper.framework */,
+				0443C35F1A121FDB007BFC70 /* OneSkyScreenshotHelper.framework */,
 			);
 			path = OneSkyScreenshotHelper;
 			sourceTree = SOURCE_ROOT;
@@ -311,7 +311,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/bretcheng/Dropbox/Projects/OneSky/OneSkyScreenshotHelper/iOS\\ Demo/OneSkyScreenshotHelper",
+					"$(PROJECT_DIR)/OneSkyScreenshotHelper/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OneSkyScreenshotDemo/OneSkyScreenshotDemo-Prefix.pch";
@@ -330,7 +330,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/bretcheng/Dropbox/Projects/OneSky/OneSkyScreenshotHelper/iOS\\ Demo/OneSkyScreenshotHelper",
+					"$(PROJECT_DIR)/OneSkyScreenshotHelper/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OneSkyScreenshotDemo/OneSkyScreenshotDemo-Prefix.pch";

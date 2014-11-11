@@ -13,7 +13,7 @@
 // Change to your project id etc
 //#define ONESKY_PROJECT_ID @""
 //#define ONESKY_API_KEY @""
-//#define ONESKY_API_SECRET @""
+#define ONESKY_API_SECRET @""/
 
 @implementation OSAppDelegate
 
@@ -25,6 +25,9 @@
 
     [[OneSkyScreenshotHelper sharedHelper] startSession];
     [[OneSkyScreenshotHelper sharedHelper] setShowsCaptureStatus:YES];
+    
+    // optional enable auto capture
+    [[OneSkyScreenshotHelper sharedHelper] enableAutoCaptureOnViewAppear];
     
     return YES;
 }

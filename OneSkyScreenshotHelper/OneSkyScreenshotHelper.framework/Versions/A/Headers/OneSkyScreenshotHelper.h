@@ -51,4 +51,8 @@
  */
 @property (nonatomic) BOOL showsCaptureStatus;
 
+/** Capture screen automatically on viewDidAppear:
+ */
+- (void)enableAutoCaptureOnViewAppear;
+
 @end
