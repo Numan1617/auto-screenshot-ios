@@ -5,6 +5,8 @@ This library automatically uploads screenshots of your app that contains localiz
 
 **NOTE:** This library is **not designed for distribution** on App Store, remember to **remove** before submission.
 
+Demo video: http://vimeo.com/91641592
+
 Installation
 ------------
 
