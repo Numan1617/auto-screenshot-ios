@@ -11,9 +11,9 @@
 #import <OneSkyScreenshotHelper/OneSkyScreenshotHelper.h>
 
 // Change to your project id etc
-//#define ONESKY_PROJECT_ID @""
-//#define ONESKY_API_KEY @""
-#define ONESKY_API_SECRET @""/
+#define ONESKY_PROJECT_ID @""
+#define ONESKY_API_KEY @""
+#define ONESKY_API_SECRET @""
 
 @implementation OSAppDelegate
 
