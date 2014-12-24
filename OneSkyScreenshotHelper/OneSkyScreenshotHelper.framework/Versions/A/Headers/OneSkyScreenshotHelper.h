@@ -47,6 +47,11 @@
  */
 @property (nonatomic, strong) NSString* apiSecret;
 
+/**
+ Show debug logs in console, default is YES
+ */
+@property (nonatomic) BOOL debug;
+
 /** Shows capture status ui
  */
 @property (nonatomic) BOOL showsCaptureStatus;
