@@ -46,6 +46,10 @@ Turn off capture status ui.
 [[OneSkyScreenshotHelper sharedHelper] setShowsCatpureStatus:NO];
 ```
 
+Helpful articles
+-------
+[ How to find API key ](http://support.oneskyapp.com/solution/categories/74754/folders/150388/articles/89104-how-to-find-your-api)
+
 Support
 -------
 http://support.oneskyapp.com/
