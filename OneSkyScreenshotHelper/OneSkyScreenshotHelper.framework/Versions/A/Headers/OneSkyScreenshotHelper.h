@@ -56,6 +56,10 @@
  */
 @property (nonatomic) BOOL showsCaptureStatus;
 
+/** Ignore specific strings files to avoid upload strings from other libraries
+ */
+@property (nonatomic, strong) NSArray *ignoredStringsFiles;
+
 /** Capture screen automatically on viewDidAppear:
  */
 - (void)enableAutoCaptureOnViewAppear;

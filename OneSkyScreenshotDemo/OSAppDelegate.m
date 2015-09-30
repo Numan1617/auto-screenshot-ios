@@ -29,6 +29,8 @@
     // optional enable auto capture
     [[OneSkyScreenshotHelper sharedHelper] enableAutoCaptureOnViewAppear];
     
+//    [[OneSkyScreenshotHelper sharedHelper] setIgnoredStringsFiles:@[@"Storyboard_iPhone.strings"]];
+    
     return YES;
 }
 
