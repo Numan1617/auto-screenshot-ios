@@ -46,6 +46,11 @@ Turn off capture status ui.
 [[OneSkyScreenshotHelper sharedHelper] setShowsCatpureStatus:NO];
 ```
 
+Ignore specific strings files e.g. strings resources from 3rd-party libraries.
+``` objective-c
+[[OneSkyScreenshotHelper sharedHelper] setIgnoredStringsFiles:@[@"InfoPlist.strings"]];
+```
+
 Helpful articles
 -------
 [ How to find API key ](http://support.oneskyapp.com/solution/categories/74754/folders/150388/articles/89104-how-to-find-your-api)
