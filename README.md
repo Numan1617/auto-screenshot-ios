@@ -7,6 +7,11 @@ This library automatically uploads screenshots of your app that contains localiz
 
 Demo video: http://vimeo.com/91641592
 
+Supported OneSky Project File Format
+------------------------------------
+
+At the moment the auto screenshot library does not support OneSky iOS project with `.xliff` files. We recommend managing iOS project resources using our [Xcode IDE plugin](https://github.com/onesky/plugin-xcode) which supports `.strings`, `.stringsdict`, `.plist` and `.json` files.
+
 Installation
 ------------
 
